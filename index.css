@@ -3,18 +3,32 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+};
 
-.liContainer {
+.container {
+    background: url(images/dawn.jpg) no-repeat;
+    background-size: cover;
+};
+  
+.second-container {
+    background: url(images/dawn_b&w.png) no-repeat;
+    background-size: cover;
+    color: white;
+};
+  
+.todo-text {
+    font-size: 20px;
+    margin: 0 10px;
+};
+  
+.wrapper {
     display: flex;
 };
-
-.word {
-    margin: 0 10px;
-    color: red;
-    font-size: 20px;
+  
+.button-active {
+    background: red;
 };
-
-.btn {
-    background-color: burlywood;
+  
+.text-done {
+    text-decoration: line-through;
 };
