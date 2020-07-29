@@ -3,32 +3,32 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-};
+}
 
 .container {
     background: url(images/dawn.jpg) no-repeat;
     background-size: cover;
-};
+}
   
 .second-container {
     background: url(images/dawn_b&w.png) no-repeat;
     background-size: cover;
     color: white;
-};
+}
   
 .todo-text {
     font-size: 20px;
     margin: 0 10px;
-};
+}
   
 .wrapper {
     display: flex;
-};
-  
+}
+
 .button-active {
     background: red;
-};
+}
   
 .text-done {
     text-decoration: line-through;
-};
+}
